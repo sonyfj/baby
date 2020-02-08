@@ -5,6 +5,7 @@ import Confetti from 'react-confetti';
 import boy from './images/boy.png';
 import girl from './images/girl.png';
 import TextLoop from "react-text-loop";
+import Countdown from "./Countdown"
 
 class App extends Component {
   constructor(props) {
@@ -77,6 +78,9 @@ class App extends Component {
                 <TextLoop noWrap={false} interval={4000}>
                   <span>Yess!! it's a Baby GIRL!!!</span>
                 </TextLoop> : null
+              }
+              {
+                this.state.girlPicked ? <Countdown /> : null
               }
             </div>
         </div>
