@@ -48,8 +48,8 @@ class App extends Component {
           <div style={{margin: "0 auto", width: "300px"}}>
             <div style={{maxWidth: "300px", textAlign: "center"}}> 
               <TextLoop noWrap={false} interval={4000}>
-                <span>Hi! I am Isabel (Izzy). I am going to get a baby sibling soon.</span>
-                <span>Guess it's a boy or a girl by clicking on one of the babies</span>
+                <span>Hi! I am Isabel (Izzy). I am going to have a baby sibling soon.</span>
+                <span>Guess if it's a boy or a girl by clicking on one of the babies</span>
               </TextLoop>
             </div>
             <div style={{paddingTop: "20px"}}>

@@ -31,8 +31,9 @@ class Countdown extends Component {
         var seconds = Math.floor((distance % _minute) / _second);
     
         return <div style={{padding: "11px", fontSize: "11px"}}>
-        { months + ' Mths ' + days + ' Days ' + hours + ' Hrs '
-            + minutes + ' Mins ' + seconds + ' Secs' }
+            <div>Countdown:</div>
+            <div>{ months + ' Mths ' + days + ' Days ' + hours + ' Hrs '
+            + minutes + ' Mins ' + seconds + ' Secs' }</div>
         </div>;
     }
 
